@@ -10,5 +10,7 @@ public class questao10 {
         for(int i = 0; i < 10; i++){
             System.out.println(numero + " x " + (i + 1) + " = " + (numero * (i + 1)));
         }
+        sc.close();
+
     }
 }
