@@ -27,7 +27,7 @@ public class DobrarNumerosNoVetor {
 
         }
 
-
+        sc.close();
 
     }
 }

@@ -20,6 +20,7 @@ public class ParesImpares {
         }
 
         System.out.print("Tem " + quantPar + " números pares e " + quantImpar + " ímpares.");
+        sc.close();
 
     }
 }

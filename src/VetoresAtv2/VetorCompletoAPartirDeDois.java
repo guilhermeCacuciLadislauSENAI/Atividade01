@@ -35,5 +35,7 @@ public class VetorCompletoAPartirDeDois {
             System.out.println(vetor3[m]);
         }
 
+        sc.close();
+
     }
 }

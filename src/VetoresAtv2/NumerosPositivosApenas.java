@@ -20,5 +20,7 @@ public class NumerosPositivosApenas {
             }
         }
 
+        sc.close();
+
     }
 }
