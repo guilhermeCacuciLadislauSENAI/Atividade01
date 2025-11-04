@@ -1,5 +1,8 @@
+package QuestõesAtv1;
+
 import java.util.Scanner;
-public class questao18 {
+
+public class Questao18 {
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
         boolean ehPrimo = true;
@@ -23,7 +26,15 @@ public class questao18 {
                     break;
                 }
             }
+
         }
+
+        if(ehPrimo){
+            System.out.print("É primo!");
+        } else{
+            System.out.print("Não é primo!");
+        }
+
         sc.close();
     }
 }

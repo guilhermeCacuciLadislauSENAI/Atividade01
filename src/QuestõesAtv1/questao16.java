@@ -1,6 +1,8 @@
+package QuestõesAtv1;
+
 import java.util.Scanner;
 
-public class questao16 {
+public class Questao16 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int numero, par = 0, impar = 0;

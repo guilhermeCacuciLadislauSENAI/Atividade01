@@ -1,6 +1,8 @@
+package QuestõesAtv1;
+
 import java.util.Scanner;
 
-public class questao25 {
+public class Questao25 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

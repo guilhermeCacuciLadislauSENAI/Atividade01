@@ -1,5 +1,8 @@
+package QuestõesAtv1;
+
 import java.util.Scanner;
-public class questao5 {
+
+public class Questao5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n1, n2, soma, subtracao, multiplicacao, divisao;
@@ -28,6 +31,5 @@ public class questao5 {
             System.out.print("Operação inválida.");
         }
         sc.close();
-
     }
 }

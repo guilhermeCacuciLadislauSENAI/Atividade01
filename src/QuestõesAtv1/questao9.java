@@ -1,5 +1,8 @@
+package QuestõesAtv1;
+
 import java.util.Scanner;
-public class questao9 {
+
+public class Questao9 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double temperatura, conversao;
@@ -22,4 +25,5 @@ public class questao9 {
         }
         sc.close();
     }
+
 }

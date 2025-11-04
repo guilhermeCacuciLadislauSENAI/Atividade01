@@ -1,5 +1,8 @@
+package QuestõesAtv1;
+
 import java.util.Scanner;
-public class questao20 {
+
+public class Questao20 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double dolar = 5.38, euro = 6.22, conversao = 0, taxaFixa = 20.00;

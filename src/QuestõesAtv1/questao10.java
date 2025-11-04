@@ -1,5 +1,8 @@
+package QuestõesAtv1;
+
 import java.util.Scanner;
-public class questao10 {
+
+public class Questao10 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -11,6 +14,5 @@ public class questao10 {
             System.out.println(numero + " x " + (i + 1) + " = " + (numero * (i + 1)));
         }
         sc.close();
-
     }
 }

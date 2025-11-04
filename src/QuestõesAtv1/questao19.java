@@ -1,6 +1,9 @@
-import java.util.Scanner;
+package QuestõesAtv1;
+
 import java.util.Random;
-public class questao19 {
+import java.util.Scanner;
+
+public class Questao19 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Random gerador = new Random();
@@ -8,13 +11,14 @@ public class questao19 {
 
         numeroSorteado = gerador.nextInt(100) + 1;
 
-        for(int i = 0; i < 100; i++){
+        boolean acertar = false;
+        while(acertar != true){
             System.out.print("Digite um número para tentar advinhar: ");
             numero = sc.nextInt();
 
             if(numero == numeroSorteado){
                 System.out.print("Parabéns, você acertou!");
-                break;
+                acertar = true;
             }else{
                 System.out.println("Você errou, tente novamente!");
                 if(numeroSorteado > numero){
