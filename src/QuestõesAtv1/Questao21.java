@@ -1,3 +1,5 @@
+package QuestõesAtv1;
+
 import java.util.Scanner;
 
 public class Questao21 {
@@ -11,9 +13,7 @@ public class Questao21 {
         potencia = sc.nextInt();
 
         for(int i =0; i < potencia; i++){
-
             total *= numero;
-
         }
 
         System.out.print(numero + "^" + potencia + " = " + total);
